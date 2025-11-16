@@ -1,0 +1,11 @@
+Java 
+ 
+
+document.getElementById("contactForm").onsubmit = function() {
+    alert("Thank you! We'll contact you soon.");
+    return false;
+};
+
+document.getElementsByTagName("tr")[2].onclick = function() {
+    alert("Lebanese Premium Chocolate is our best seller!");
+};
